@@ -39,6 +39,7 @@ new vue__WEBPACK_IMPORTED_MODULE_1__.default({
     Notification: _components_Notification_vue__WEBPACK_IMPORTED_MODULE_0__.default
   }
 });
+alert("foobar");
 
 /***/ }),
 

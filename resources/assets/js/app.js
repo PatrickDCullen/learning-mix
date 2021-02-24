@@ -5,3 +5,5 @@ new Vue({
     el: "#root",
     components: { Notification },
 });
+
+alert("foobar");

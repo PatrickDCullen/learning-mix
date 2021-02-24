@@ -14,7 +14,4 @@ const mix = require("laravel-mix");
 mix.js("resources/assets/js/app.js", "js")
     .sass("resources/assets/sass/app.scss", "css")
     .vue()
-    .browserSync({
-        proxy: "http://127.0.0.1:8000/",
-        browser: "google chrome",
-    });
+    .version();
