@@ -1,17 +1,5 @@
 body {
-  color: brown;
+  color: red;
+  margin: 10px;
+  z-index: 1000000;
 }
-#thing {
-  transition: all 1s;
-}
-@-webkit-keyframes fade {
-  50% {
-    opacity: 0;
-  }
-}
-@keyframes fade {
-  50% {
-    opacity: 0;
-  }
-}
-
