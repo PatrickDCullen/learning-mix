@@ -11,10 +11,10 @@ const mix = require("laravel-mix");
  |
  */
 
-mix.sass("./resources/assets/sass/app.scss", "public/css").options({
-    postCss: [
-        require("postcss-sorting")({
-            "properties-order": "alphabetical",
-        }),
-    ],
-});
+mix.js("resources/assets/js/app.js", "js")
+    .sass("resources/assets/sass/app.scss", "css")
+    .vue()
+    .browserSync({
+        proxy: "http://127.0.0.1:8000/",
+        browser: "google chrome",
+    });
