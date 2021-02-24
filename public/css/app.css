@@ -1,1 +1,17 @@
+body {
+  color: brown;
+}
+#thing {
+  transition: all 1s;
+}
+@-webkit-keyframes fade {
+  50% {
+    opacity: 0;
+  }
+}
+@keyframes fade {
+  50% {
+    opacity: 0;
+  }
+}
 
