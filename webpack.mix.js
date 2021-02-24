@@ -1,5 +1,6 @@
 const mix = require("laravel-mix");
 
+mix.extend("foobar", new MyExtension());
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management
