@@ -1,6 +1,7 @@
 const mix = require("laravel-mix");
 
-mix.extend("foobar", new MyExtension());
+require("./laravel-mix-tailwind");
+
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management
@@ -14,5 +15,5 @@ mix.extend("foobar", new MyExtension());
 
 mix.js("resources/assets/js/app.js", "js")
     .sass("resources/assets/sass/app.scss", "css")
-    .vue()
-    .version();
+    .tailwind()
+    .vue();
